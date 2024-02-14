@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<ArrayOfRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Record>
+    <RouteTitle>Test Route 1</RouteTitle>
+    <FirstStation>Station A</FirstStation>
+    <LastStation>Station B</LastStation>
+    <Distance>10</Distance>
+    <Status>Inactive</Status>
+    <CreatedDatetime>2024-02-14T23:12:39.8550335+09:00</CreatedDatetime>
+  </Record>
+  <Record>
+    <RouteTitle>Test Route 2</RouteTitle>
+    <FirstStation>Station C</FirstStation>
+    <LastStation>Station D</LastStation>
+    <Distance>20</Distance>
+    <Status>Inactive</Status>
+    <CreatedDatetime>2024-02-14T23:12:39.8456415+09:00</CreatedDatetime>
+  </Record>
+  <Record>
+    <RouteTitle>Test Route 1</RouteTitle>
+    <FirstStation>Station A</FirstStation>
+    <LastStation>Station B</LastStation>
+    <Distance>10</Distance>
+    <Status>Active</Status>
+    <CreatedDatetime>2024-02-14T23:12:39.8550335+09:00</CreatedDatetime>
+  </Record>
+</ArrayOfRecord>
