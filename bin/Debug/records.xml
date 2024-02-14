@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfRecord xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Record>
+    <RouteTitle>Patna</RouteTitle>
+    <FirstStation>Gujrat</FirstStation>
+    <LastStation>Ranchi</LastStation>
+    <Distance>800</Distance>
+    <Status>Active</Status>
+    <CreatedDatetime>2024-02-13T21:02:26.4034708+09:00</CreatedDatetime>
+    <ReferenceCode>20240213PATN</ReferenceCode>
+  </Record>
+  <Record>
+    <RouteTitle>Mau</RouteTitle>
+    <FirstStation>Muz</FirstStation>
+    <LastStation>Motihari</LastStation>
+    <Distance>80</Distance>
+    <Status>Active</Status>
+    <CreatedDatetime>2024-02-14T00:30:04.4508263+09:00</CreatedDatetime>
+    <ReferenceCode>20240214MAU</ReferenceCode>
+  </Record>
+  <Record>
+    <RouteTitle>Ginza Line</RouteTitle>
+    <FirstStation>Shizuoka</FirstStation>
+    <LastStation>Tokyo</LastStation>
+    <Distance>280</Distance>
+    <Status>Active</Status>
+    <CreatedDatetime>2024-02-14T19:36:30.1087543+09:00</CreatedDatetime>
+    <ReferenceCode>20240214GINZ</ReferenceCode>
+  </Record>
+</ArrayOfRecord>

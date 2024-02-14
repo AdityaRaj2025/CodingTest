@@ -1,0 +1,29 @@
+﻿<Window x:Class="RailwayTask.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RailwayTask"
+        mc:Ignorable="d"
+         Title="Railway - Login" Height="200" Width="300">
+    <Grid>
+        <GroupBox Header="Select User Role:" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+            <StackPanel>
+                <!-- ComboBox for user role selection -->
+                <ComboBox x:Name="roleComboBox" Width="212" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <ComboBoxItem Content="Operator"/>
+                    <ComboBoxItem Content="Admin"/>
+                </ComboBox>
+
+                <!-- Label and PasswordBox for user and password -->
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="Password:" VerticalAlignment="Center" Margin="0,0,5,0"/>
+                    <PasswordBox x:Name="passwordBox" Width="147" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+        <Label Content="User Name:" VerticalAlignment="Top" Margin="10,97,0,0"/>
+        <TextBox VerticalAlignment="Top" Width="120" Margin="80,101,0,0" x:Name="txtUser" IsReadOnly="True"/>
+        <Button Content="Login" Click="Login_Click" HorizontalAlignment="Left" Height="27" VerticalAlignment="Top" Width="80" Margin="183,128,0,0"/>
+    </Grid>
+</Window>
