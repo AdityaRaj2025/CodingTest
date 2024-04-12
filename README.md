@@ -1,3 +1,5 @@
+# This repository contains a simple yet effective implementation of a Create, Read, Update, and Delete (CRUD) application using C#.
+
 # Question CSS2.1: CRUD GUI
 
 # Login Page
